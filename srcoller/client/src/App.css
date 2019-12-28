@@ -1,0 +1,31 @@
+.title {
+  font-family: "Carter One";
+}
+.title.is-1{
+  color: blue;
+  background-color: brown;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Optional style for fetched images */
+.images {
+  display: flex;
+  max-width: 80%;
+  margin: 2% auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.single-photo {
+  max-width: 300px;
+  align-self: auto;
+  margin: 1% 2px;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+.hero-body{
+  background-color: #fff;
+}
